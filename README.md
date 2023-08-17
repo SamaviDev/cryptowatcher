@@ -1,4 +1,21 @@
-# React + TypeScript + Vite
+# Cryptowatcher (React + TypeScript + Vite)
+
+## getting started
+Copy the .env.example file to .env
+
+    cp .env.example .env
+
+Fill the environment variable below with the Public key value of [cryptowat.ch](http://cryptowat.ch).
+
+    VITE_CRYPTOWATCH_API_KEY=YOUR-PUBLIC-KEY
+
+Install the packages with the following command
+
+    pnpm install
+
+And then click the following command to execute
+
+    pnpm run dev
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
